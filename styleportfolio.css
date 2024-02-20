@@ -1,6 +1,7 @@
 
-body{
-    background:black;
+    
+    body{
+    background:;
     color: black;
     margin: 0 auto;
     
@@ -8,11 +9,11 @@ body{
 }
 
 .container{
-    background:navy;
+                                                                                                  
     border-color: black;
     border-radius: 10px;
-    margin: 40px ;
-    width:800;
+    margin-top: 40px ;
+    width:800; 
 }
 
 fieldset{
@@ -24,8 +25,8 @@ fieldset{
 
 header{
     background:#bedded ;
-    margin-right: 30px;
-    margin-left: 10px;
+    margin-right: 40px;
+    margin-left: 40px;
     margin: auto;
     padding-top: 20px;
     
@@ -46,13 +47,15 @@ li :hover{
 }
 .sect1{
     background-color: #bedded;
-    width: 95%;
+    /* width: 95%; */
     margin: 0 auto;
 }
 .s1img{
-    background-color: rgb(86, 86, 240);
+    
     margin: 0 auto;
-    border-radius: 100px;
+    
+    
+   
 }
 .btn{
     color: white;
@@ -60,7 +63,7 @@ li :hover{
 }
 .sect2{
     background-color:whitesmoke;
-    width: 95%;
+    /* width: 95%; */
     border-color: rgb(5, 5, 5);
     border-radius: 5px;
     margin: 0 auto;
@@ -68,20 +71,20 @@ li :hover{
 
 .sect3{
     background: #bedded;
-    width: 95%;
+    /*width: 95%; */
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .imgr{
     display: flex;
-    padding-top: 20px;
+    padding: 10px;
 }
 
 .logos{
     display: flex;
     margin: 0 auto;
-    width: 100px;
+    width: 80px;
     height: 80px;
 
 }
@@ -91,13 +94,13 @@ li :hover{
 .sect4{
     
     background:whitesmoke;
-    width: 95%;
+    /*width: 95%;*/
     margin: 0 auto;
 }
 .imas4{
     display: flex;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 10px;
 
 }
 .trio4{
@@ -109,9 +112,9 @@ li :hover{
 .sect5{
     
     background: whitesmoke;
-    width: 95%;
+    /*width: 95%;*/
     margin: 0 auto;
-    padding: 20px;
+    padding: 0px;
 }
 .nano{
     margin: 0 auto;
@@ -120,8 +123,8 @@ li :hover{
 
 
 .sect6{
-    width: 95%;
-    margin: 0 auto;
+    /*width: 95%;*/
+    margin-top: 0 auto;
     background-color: #bedded;
 
 }
@@ -145,5 +148,27 @@ h2{
 h4{
     color:navy ;
 }
+.container {
+    display: flex;
+  
+    align-items: center;
+   
+}
+
+.row {
+    display: flex; 
+    justify-content: center; 
+}
+
+.imgr {
+    list-style-type: none; 
+    display: flex; 
+    margin-right: 10px;
+}
+
+.logos {
+    margin: 10px;
+}
+
 
 
